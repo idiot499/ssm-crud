@@ -1,0 +1,27 @@
+了解web项目结构:
+src/main/java 是你的代码。
+
+src/main/resources 是你的资源文件。
+
+src/main/webapp 是放静态资源和全局xml资源文件的
+
+src/test/java 是你的测试代码。
+
+src/test/resources 是你的测试资源文件。
+
+
+1.创建Maven工程
+2.引入依赖包:
+*spring
+*springmvc
+*mybatis
+*数据库连接池
+3.引入bootstrap前端框架
+4.编写ssm整合的关键配置文件：
+*web.xml
+*spring
+*springmvc
+*mybatis
+5.编写ssm整合的关键配置文件
+web.xml,spring,springmvc,mybatis使用没有mybatis逆向工程生成的bean以及mapper
+6.测试mapper
